@@ -1,0 +1,77 @@
+.judul-section {
+    background-color: #fff8fb;
+}
+.judul-section h2 {
+    color: #7b2d5f;
+}
+.judul-section p {
+    color: #555;
+}
+.produk-card {
+    border: none;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.produk-card:hover {
+    transform: translateY(-5px);
+}
+.produk-card img {
+    height: 250px;
+    object-fit: cover;
+}
+.produk-card h3 {
+    color: #7b2d5f;
+    font-size: 20px;
+}
+.produk-card p {
+    line-height: 1.6;
+}
+.harga {
+    color: #7b2d5f;
+    font-weight: bold;
+    font-size: 18px;
+}
+.tombol-beli {
+    background-color: #7b2d5f;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.tombol-beli:hover {
+    background-color: #4a1838;
+    color: white;
+}
+.sasira-header {
+    background-color: #7b2d5f;
+    color: white;
+}
+.sasira-header h1 {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.sasira-header p {
+    margin: 0;
+}
+.sasira-navbar {
+    background-color: #4a1838;
+}
+.sasira-navbar .nav-link {
+    color: white;
+}
+.sasira-navbar .nav-link:hover {
+    color: #f3b6d2;
+}
+.sasira-footer {
+    background-color: #4a1838;
+    color: white;
+}
+.footer-box h2,
+.footer-box h3 {
+    color: #f3b6d2;
+}
+.footer-box p {
+    line-height: 1.7;
+}
+.footer-bottom {
+    background-color: #301025;
+}

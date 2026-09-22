@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background-color: #fff8fb;
+    color: #333;
+}
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color:  #7b2d5f;
+    margin-bottom: 10px;
+}
+.deskripsi {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+fieldset {
+    border: 1px solid #d6c4ad;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend {
+    font-weight: bold;
+    color:  #7b2d5f;
+    padding: 0 10px;
+}
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+.petunjuk {
+    color: #666;
+    font-size: 14px;
+}
+
+.produk {
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid #e0d5c8;
+    border-radius: 8px;
+    background-color: #fcfaf7;
+}
+
+.pilihan {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+}
+
+.pilihan input {
+    width: 18px;
+    height: 18px;
+    accent-color:  #7b2d5f;
+}
+
+.harga {
+    margin: 8px 0;
+    color:  #7b2d5f;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color:  #7b2d5f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #7b2d5f;
+}
+
+button.reset {
+    background-color: #777;
+}
+
+button.reset:hover {
+    background-color: #555;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    fieldset {
+        padding: 15px;
+    }
+}
